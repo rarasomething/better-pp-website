@@ -120,10 +120,10 @@ const IntroPage = () => {
           </Box>
           <Stack maxWidth="330px">
             <Typography variant="h4" fontWeight="bold" color="#33374D">
-              {t("stress-free-learning")}
+              {t("12-concepts-to-learn")}
             </Typography>
             <Typography marginTop="20px">
-              {t("stress-free-learning-contents")}
+              {t("12-concepts-to-learn-contents")}
             </Typography>
           </Stack>
         </Stack>
@@ -150,10 +150,10 @@ const IntroPage = () => {
           </Box>
           <Stack maxWidth="330px">
             <Typography variant="h4" fontWeight="bold" color="#33374D">
-              {t("stress-free-learning")}
+              {t("no-payment-needed")}
             </Typography>
             <Typography marginTop="20px">
-              {t("stress-free-learning-contents")}
+              {t("no-payment-needed-contents")}
             </Typography>
           </Stack>
         </Stack>
