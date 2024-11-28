@@ -56,11 +56,13 @@ const LessonPage = () => {
         (e) => e === userData.currentUnit
       );
       if (allUnits.length - 1 >= currentUnitIndex + 1) {
-        await setCurrentUnitData(allUnits[currentUnitIndex + 1]);
+        const nextUnit = allUnits[currentUnitIndex + 1];
+        await setCurrentUnitData(nextUnit);
+        await setCurrentLessonData(contents[nextUnit].lessonList[0]);
         await addBadgeCount();
         await setUserData({ ...userData, badgeCount: userData.badgeCount + 1 });
-        navigate("/");
       }
+      navigate("/");
     } else {
       await setCurrentLessonData(lessonList[currentLessonIndex + 1]);
       await addBadgeCount();
