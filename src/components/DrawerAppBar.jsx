@@ -100,8 +100,14 @@ function DrawerAppBar(props) {
           >
             <MenuIcon />
           </IconButton>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}>
-            <img style={{ width: "50px" }} src={images.ppLogoWhite} />
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: "none", sm: "flex" },
+              alignItems: "center",
+            }}
+          >
+            <img style={{ width: "100px" }} src={images.ppLogoWhite} />
           </Box>
           <Box sx={{ display: "flex", flexDirection: "row" }}>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
