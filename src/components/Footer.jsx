@@ -10,8 +10,6 @@ const Footer = () => {
       }}
     >
       <Stack flexDirection="row" justifyContent="space-between">
-        <Typography>programmed by yoomin (rachel) jung</Typography>
-
         <Typography>contact: yjung2027@chadwickschool.org</Typography>
       </Stack>
     </Box>
