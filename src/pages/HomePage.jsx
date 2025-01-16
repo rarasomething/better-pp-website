@@ -36,15 +36,16 @@ const HomePage = () => {
     { top: 400, left: 400 },
     { top: 400, left: 700 },
     { top: 400, right: 100 },
-  ].map((e, i) => {
-    if (currentLessons.lessonList[i]) {
-      return {
-        ...e,
-        path: userData.currentUnit + "/" + currentLessons.lessonList[i],
-      };
-    }
-    return e;
-  });
+  ]
+    .map((e, i) => {
+      if (currentLessons.lessonList[i]) {
+        return {
+          ...e,
+          path: userData.currentUnit + "/" + currentLessons.lessonList[i],
+        };
+      }
+    })
+    .filter((e) => e);
 
   const getCurrentPosition = () => {
     return contents[userData.currentUnit].lessonList.findIndex(
