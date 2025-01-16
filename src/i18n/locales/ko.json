@@ -227,5 +227,40 @@
   "unit3_lesson4_paragraph1": "Once a data is determined as a certain data type, it is possible to convert it to another data type. This process is called casting, and it is often used to enable operations between incompatible types of data. There are two types of type conversions, also called casting: implicit and explicit.",
   "unit3_lesson4_paragraph2": "Implicit casting is automatically performed by the language, and happens when a broader, less precise data type is converted into a more precise data type. For example, in the example below, the data type of the value being handled is initially an integer, but is later converted implicitly to a float value as a float value is added to the integer.",
   "unit3_lesson4_paragraph3": "Explicit casting is type conversion that is manually specified by the programmer. This happens using built-in type conversion functions, such as int(), float(), and str(). For example, in the example below, the data type of x is originally a string, but is explicitly converted to an integer.",
-  "unit3_lesson4_paragraph4": "Although type casting is necessary for some operators to work, it sometimes results in data loss. For example, if a float data type is converted to an integer data type, the value after the decimal point is simply removed."
+  "unit3_lesson4_paragraph4": "Although type casting is necessary for some operators to work, it sometimes results in data loss. For example, if a float data type is converted to an integer data type, the value after the decimal point is simply removed.",
+
+  "unit4_lesson1_title": "1. What are operators?",
+  "unit4_lesson1_info": "2 min read · 0 questions",
+  "unit4_lesson1_paragraph1": "Operators are symbols that tell the computer how to manipulate the data on either side of the operator. You’re probably familiar with operators, since you use them all the time in math. For example, in 5 + 3, + is the operator, and 5 and 3 are the operands. Sounding familiar?",
+  "unit4_lesson1_paragraph2": "In Python (and almost any other programming language), there are operators for almost anything you want to do. But since this is a unit covering only the basics, we will focus on the major three groups of operators: arithmetic, relational, and logical. Don’t worry, Python has an intuitive syntax and all lines of code can be converted into some sort of pseudo code that you can understand.",
+
+  "unit4_lesson2_title": "2. Arithmetic and Assignment Operators",
+  "unit4_lesson2_info": "3 min read · 0 questions",
+  "unit4_lesson2_paragraph1": "Arithmetic operators are the operators that you are most likely to be familiar with, and are also the most commonly used operators just because they perform the most basic operations. Some commonly used arithmetic operators include addition, subtraction, multiplication, division, modulus, exponentiation, and floor division.",
+  "unit4_lesson2_paragraph2": "In programming, it gets tiring having to rewrite the variable’s name over and over again for it to work. So, in Python, some of the arithmetic operations can be shortened, increasing the readability of the code and making the writing of the code more comfortable. These operators are called assignment operators, and are created by putting the operator in front of an equal sign. ",
+
+  "unit4_lesson3_title": "3. Relational and Logical Operators",
+  "unit4_lesson3_info": "3 min read · 0 questions",
+  "unit4_lesson3_paragraph1": "Relational operators are also often used, especially during the establishment of conditional statements in the future. Remember how you used “greater than” and “less than”? These are the operators that you learned during primary school to compare two different numbers. Relational operators are used to compare two values and return a Boolean value of True or False.",
+  "unit4_lesson3_paragraph2": "Logical operators are something that might be unfamiliar to you, but if you’ve studied or know about set theory, they should be easy to understand. Even if you aren’t, the concept and syntax in Python is intuitive, so there should be no difficulties in understanding how to use them. Logical operators are used to combine or invert Boolean values. Three of the main operators are “and”, “or”, and “not”.",
+
+  "unit4_lesson4_title": "4. Operator Precedence and Parentheses",
+  "unit4_lesson4_info": "2 min read · 1 question",
+  "unit4_lesson4_paragraph1": "Just like in mathematics, there is an order of precedence in operators, which determines the order in which the operators are evaluated in an expression. The operator precedence in Python and other programming languages is similar to the PEMDAS rule of precedence in mathematics, where parentheses have the highest precedence, followed by exponents, multiplication and division, and addition and subtraction. A key difference is that in Python, this precedence also applies to non-arithmetic operations.",
+  "unit4_lesson4_question1": "QUESTION (A/B): What is the value of the result? result = 3 + 5 * 2 ** 2 > 15 and not (10 - 3 < 5)",
+  "unit4_lesson4_question1_option1": "A. True",
+  "unit4_lesson4_question1_option2": "B. False",
+  "unit4_lesson4_question1_answer": "Good job!",
+  "unit4_lesson4_question1_wrong_answer": "A tough one, right? The correct answer is A. True. Make sure that you’re referring to the table if you’re confused.",
+
+  "unit5_lesson1_title": "1. What are Conditional Statements?",
+  "unit5_lesson1_info": "2 min read · 0 questions",
+  "unit5_lesson1_paragraph1": "Conditional statements are statements that allow a program to make decisions and run code selectively. It’s sort of like how you ask a question in real life. They always loosely follow the logic of “if something is true, do this; otherwise, do that”, but I find it easier to understand if I think of it as “if the answer to the question is ‘yes’, do this; otherwise, do that.”",
+  "unit5_lesson1_paragraph2": "The most representative way of writing a conditional statement is through if, elif, and else statements. If statements only execute the code if the condition is True, or if the answer to the question is yes. Elif (else + if) statements are a way of checking multiple conditions in sequence, happening if the condition is false but you want to add another condition, or when the answer to the question is no but you have a follow-up question. Else statements are the alternative code that happens if the condition is False, or when the answer to the question is no.",
+
+  "unit5_lesson2_title": "2. What are Loops?",
+  "unit5_lesson2_info": "1 min read · 0 questions",
+  "unit5_lesson2_paragraph1": "Loops are statements that tell the computer to execute the code inside it multiple times, often a set number of times. Each loop is called an iteration. There are two major ways of making loops in Python, and they are through for loops and while loops. ",
+  "unit5_lesson2_paragraph2": "For loops are loops that have a set number of iterations, and they loop over a range or sequence a certain number of times. You can think of it as looping “for” a certain range.",
+  "unit5_lesson2_paragraph3": "While loops are loops that have no set number of iterations but have a condition that ends the loop. You can think of it as looping “while” the condition is True."
 }

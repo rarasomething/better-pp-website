@@ -23,6 +23,12 @@ import Unit3Lesson1 from "../components/lessons/unit3/Unit3Lesson1";
 import Unit3Lesson2 from "../components/lessons/unit3/Unit3Lesson2";
 import Unit3Lesson3 from "../components/lessons/unit3/Unit3Lesson3";
 import Unit3Lesson4 from "../components/lessons/unit3/Unit3Lesson4";
+import Unit4Lesson1 from "../components/lessons/unit4/Unit4Lesson1";
+import Unit4Lesson2 from "../components/lessons/unit4/Unit4Lesson2";
+import Unit4Lesson3 from "../components/lessons/unit4/Unit4Lesson3";
+import Unit4Lesson4 from "../components/lessons/unit4/Unit4Lesson4";
+import Unit5Lesson1 from "../components/lessons/unit5/Unit5Lesson1";
+import Unit5Lesson2 from "../components/lessons/unit5/Unit5Lesson2";
 
 const CustomButton = styled(Button)({
   backgroundColor: "#f2c94c",
@@ -78,6 +84,18 @@ const LessonPage = () => {
       return Unit3Lesson3();
     } else if (unitName === "unit3" && lessonName === "lesson4") {
       return Unit3Lesson4();
+    } else if (unitName === "unit4" && lessonName === "lesson1") {
+      return Unit4Lesson1();
+    } else if (unitName === "unit4" && lessonName === "lesson2") {
+      return Unit4Lesson2();
+    } else if (unitName === "unit4" && lessonName === "lesson3") {
+      return Unit4Lesson3();
+    } else if (unitName === "unit4" && lessonName === "lesson4") {
+      return Unit4Lesson4();
+    } else if (unitName === "unit5" && lessonName === "lesson1") {
+      return Unit5Lesson1();
+    } else if (unitName === "unit5" && lessonName === "lesson2") {
+      return Unit5Lesson2();
     }
   };
 

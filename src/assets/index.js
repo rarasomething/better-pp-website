@@ -41,6 +41,20 @@ const images = {
     .href,
   unit3Lesson4Photo2: new URL("./unit3-lesson4-photo2.png", import.meta.url)
     .href,
+  unit4Lesson2Photo1: new URL("./unit4-lesson2-photo1.png", import.meta.url)
+    .href,
+  unit4Lesson2Photo2: new URL("./unit4-lesson2-photo2.png", import.meta.url)
+    .href,
+  unit4Lesson3Photo1: new URL("./unit4-lesson3-photo1.png", import.meta.url)
+    .href,
+  unit4Lesson4Photo1: new URL("./unit4-lesson4-photo1.png", import.meta.url)
+    .href,
+  unit5Lesson1Photo1: new URL("./unit5-lesson1-photo1.png", import.meta.url)
+    .href,
+  unit5Lesson2Photo1: new URL("./unit5-lesson2-photo1.png", import.meta.url)
+    .href,
+  unit5Lesson2Photo2: new URL("./unit5-lesson2-photo2.png", import.meta.url)
+    .href,
 };
 
 export default images;
