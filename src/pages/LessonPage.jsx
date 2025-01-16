@@ -1,8 +1,6 @@
 import { Box, Button, Container, Stack, styled } from "@mui/material";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import images from "../assets";
-import UnitOneLessonOne from "../components/lessons/unit1/LessonOne";
-import UnitOneLessonTwo from "../components/lessons/unit1/LessonTwo";
 import { useTranslation } from "react-i18next";
 import useContentsStore from "../stores/contentsStore";
 import { useUserDataStore } from "../stores/userDataStore";
@@ -11,6 +9,10 @@ import {
   setCurrentUnitData,
   addBadgeCount,
 } from "../apis/firebase";
+import Unit1Lesson1 from "../components/lessons/unit1/Unit1Lesson1";
+import Unit1Lesson2 from "../components/lessons/unit1/Unit1Lesson2";
+import Unit1Lesson3 from "../components/lessons/unit1/Unit1Lesson3";
+import Unit1Lesson4 from "../components/lessons/unit1/Unit1Lesson4";
 
 const CustomButton = styled(Button)({
   backgroundColor: "#f2c94c",
@@ -39,11 +41,16 @@ const LessonPage = () => {
 
   const getLesson = () => {
     if (unitName === "unit1" && lessonName === "lesson1") {
-      return UnitOneLessonOne();
+      return Unit1Lesson1();
     } else if (unitName === "unit1" && lessonName === "lesson2") {
-      return UnitOneLessonTwo();
+      return Unit1Lesson2();
+    } else if (unitName === "unit1" && lessonName === "lesson3") {
+      return Unit1Lesson3();
+    } else if (unitName === "unit1" && lessonName === "lesson4") {
+      return Unit1Lesson4();
     }
   };
+
   const onDidItButtonClick = async () => {
     const currentUnit = userData.currentUnit;
     const currentLesson = userData.currentLesson;

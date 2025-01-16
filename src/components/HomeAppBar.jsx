@@ -125,7 +125,7 @@ function HomeAppBar(props) {
                 fontWeight="bold"
                 fontSize="1.2rem"
               >
-                {t(userData?.currentUnit + "-title")}
+                {t(userData?.currentUnit + "_title")}
               </Typography>
               <span style={{ marginRight: "20px" }}>
                 <img style={{ width: "130px" }} src={images.train} />

@@ -19,6 +19,12 @@ const images = {
   yellowStone: new URL("./yellow-stone.png", import.meta.url).href,
   arrowLeft: new URL("./arrow-left.png", import.meta.url).href,
   dummyRectangle: new URL("./dummy-rectangle.png", import.meta.url).href,
+  unit1Lesson3Photo1: new URL("./unit1-lesson3-photo1.png", import.meta.url)
+    .href,
+  unit1Lesson4Photo1: new URL("./unit1-lesson4-photo1.png", import.meta.url)
+    .href,
+  unit1Lesson4Photo2: new URL("./unit1-lesson4-photo2.png", import.meta.url)
+    .href,
 };
 
 export default images;
