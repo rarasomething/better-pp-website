@@ -35,6 +35,12 @@ const images = {
     .href,
   unit2Lesson6Photo1: new URL("./unit2-lesson6-photo1.png", import.meta.url)
     .href,
+  unit3Lesson3Photo1: new URL("./unit3-lesson3-photo1.png", import.meta.url)
+    .href,
+  unit3Lesson4Photo1: new URL("./unit3-lesson4-photo1.png", import.meta.url)
+    .href,
+  unit3Lesson4Photo2: new URL("./unit3-lesson4-photo2.png", import.meta.url)
+    .href,
 };
 
 export default images;

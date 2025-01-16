@@ -19,6 +19,10 @@ import Unit2Lesson3 from "../components/lessons/unit2/Unit2Lesson3";
 import Unit2Lesson4 from "../components/lessons/unit2/Unit2Lesson4";
 import Unit2Lesson5 from "../components/lessons/unit2/Unit2Lesson5";
 import Unit2Lesson6 from "../components/lessons/unit2/Unit2Lesson6";
+import Unit3Lesson1 from "../components/lessons/unit3/Unit3Lesson1";
+import Unit3Lesson2 from "../components/lessons/unit3/Unit3Lesson2";
+import Unit3Lesson3 from "../components/lessons/unit3/Unit3Lesson3";
+import Unit3Lesson4 from "../components/lessons/unit3/Unit3Lesson4";
 
 const CustomButton = styled(Button)({
   backgroundColor: "#f2c94c",
@@ -66,6 +70,14 @@ const LessonPage = () => {
       return Unit2Lesson5();
     } else if (unitName === "unit2" && lessonName === "lesson6") {
       return Unit2Lesson6();
+    } else if (unitName === "unit3" && lessonName === "lesson1") {
+      return Unit3Lesson1();
+    } else if (unitName === "unit3" && lessonName === "lesson2") {
+      return Unit3Lesson2();
+    } else if (unitName === "unit3" && lessonName === "lesson3") {
+      return Unit3Lesson3();
+    } else if (unitName === "unit3" && lessonName === "lesson4") {
+      return Unit3Lesson4();
     }
   };
 
