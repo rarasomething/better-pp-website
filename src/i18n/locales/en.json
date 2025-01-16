@@ -14,7 +14,6 @@
   "you-did-it": "you did it!",
   "logout": "logout",
 
-  "unit3_title": "Variables and Data Types (Unit 3)",
   "unit4_title": "Operators (Unit 4)",
   "unit5_title": "Conditional Statements and Loops (Unit 5)",
 
@@ -190,6 +189,7 @@
   "unit3_lesson1_paragraph3": "Hence, instead of thinking of variables as some unknown number, think of them as boxes in a storage space. By giving variables names, you can think that you’re labeling the boxes to keep track of different items.",
   "unit3_lesson1_paragraph4": "In Python, especially, a variable can be anything: a letter, a number, a truth value, and so much more. As we progress through this unit, you will learn how to define, name, use, and display variables in Python, as well as learn about the different data types.",
 
+  "unit3_title": "Variables and Data Types (Unit 3)",
   "unit3_lesson2_title": "2. Declaration, Initialization, and Usage",
   "unit3_lesson2_info": "3 min read · 1 question",
   "unit3_lesson2_paragraph1": "In programming, the defining of a variable is called a “declaration” of the variable. To declare a variable in Python, you don’t have to indicate what value will be stored inside the variable. You just need to come up with a name for the variable.",
