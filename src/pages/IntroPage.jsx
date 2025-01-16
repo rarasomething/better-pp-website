@@ -69,27 +69,28 @@ const IntroPage = () => {
         </Stack>
         <Stack
           flexDirection="row"
-          justifyContent="space-around"
+          justifyContent="center"
+          gap="60px"
           alignItems="center"
           marginTop="200px"
           width="100%"
         >
           <Box>
             <Box sx={{ position: "relative" }}>
-              <img src={images.photoBackground1} style={{ width: "300px" }} />
               <img
-                src={images.dummyImage1}
-                style={{
-                  position: "absolute",
-                  width: "70px",
-                  left: 120,
-                  top: 90,
-                }}
+                src={images.photoBackground1}
+                style={{ width: "300px", borderRadius: "30px" }}
               />
             </Box>
           </Box>
           <Stack maxWidth="330px">
-            <Typography variant="h4" fontWeight="bold" color="#33374D">
+            <Typography
+              variant="h4"
+              fontSize="40px"
+              fontWeight="bold"
+              whiteSpace="nowrap"
+              color="#33374D"
+            >
               {t("stress-free-learning")}
             </Typography>
             <Typography marginTop="20px">
@@ -101,25 +102,25 @@ const IntroPage = () => {
           flexDirection="row-reverse"
           justifyContent="space-around"
           alignItems="center"
-          marginTop="40px"
+          marginTop="80px"
           width="100%"
         >
           <Box>
             <Box sx={{ position: "relative" }}>
-              <img src={images.photoBackground2} style={{ width: "300px" }} />
               <img
-                src={images.dummyImage1}
-                style={{
-                  position: "absolute",
-                  width: "70px",
-                  left: 120,
-                  top: 90,
-                }}
+                src={images.photoBackground2}
+                style={{ width: "300px", borderRadius: "30px" }}
               />
             </Box>
           </Box>
           <Stack maxWidth="330px">
-            <Typography variant="h4" fontWeight="bold" color="#33374D">
+            <Typography
+              variant="h4"
+              fontWeight="bold"
+              fontSize="40px"
+              color="#33374D"
+              whiteSpace="nowrap"
+            >
               {t("12-concepts-to-learn")}
             </Typography>
             <Typography marginTop="20px">
@@ -129,27 +130,28 @@ const IntroPage = () => {
         </Stack>
         <Stack
           flexDirection="row"
-          justifyContent="space-around"
+          justifyContent="center"
+          gap="60px"
           alignItems="center"
-          marginTop="20px"
+          marginTop="80px"
           width="100%"
         >
           <Box>
             <Box sx={{ position: "relative" }}>
-              <img src={images.photoBackground3} style={{ width: "300px" }} />
               <img
-                src={images.dummyImage1}
-                style={{
-                  position: "absolute",
-                  width: "70px",
-                  left: 120,
-                  top: 90,
-                }}
+                src={images.photoBackground3}
+                style={{ width: "300px", borderRadius: "30px" }}
               />
             </Box>
           </Box>
           <Stack maxWidth="330px">
-            <Typography variant="h4" fontWeight="bold" color="#33374D">
+            <Typography
+              whiteSpace="nowrap"
+              fontSize="40px"
+              variant="h4"
+              fontWeight="bold"
+              color="#33374D"
+            >
               {t("no-payment-needed")}
             </Typography>
             <Typography marginTop="20px">

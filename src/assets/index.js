@@ -2,7 +2,6 @@ const images = {
   ppLogoWhite: new URL("./pp-logo-white.png", import.meta.url).href,
   learnMoreButton: new URL("./learn-more-button.png", import.meta.url).href,
   mainTextCircle: new URL("./main-text-circle.png", import.meta.url).href,
-  dummyImage1: new URL("./dummy-image-1.png", import.meta.url).href,
   photoBackground1: new URL("./photo-background-1.png", import.meta.url).href,
   photoBackground2: new URL("./photo-background-2.png", import.meta.url).href,
   photoBackground3: new URL("./photo-background-3.png", import.meta.url).href,
