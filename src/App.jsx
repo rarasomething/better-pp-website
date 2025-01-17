@@ -32,7 +32,6 @@ function App() {
           <Route path=":unitName/:lessonName" element={<LessonPage />} />
         </Route>
       </Routes>
-      <Footer />
     </Box>
   );
 }
